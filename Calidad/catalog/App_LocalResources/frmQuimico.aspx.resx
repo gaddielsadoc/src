@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aplicacionD" xml:space="preserve">
+    <value>Todos los tipos de aplicación requieren ser diferentes&lt;br&gt;</value>
+  </data>
+  <data name="cantidadDosis" xml:space="preserve">
+    <value>Las cantidades de Dosis deben ser decimales de 0000.0000 hasta 9999.9999&lt;br&gt;</value>
+  </data>
+  <data name="cantidadDosisR" xml:space="preserve">
+    <value>Las cantidades de Dosis son requeridas&lt;br&gt;</value>
+  </data>
+  <data name="decimal99" xml:space="preserve">
+    <value>El campo debe ser decimal de 00.00 hasta 99.99</value>
+  </data>
+  <data name="decimal9999" xml:space="preserve">
+    <value>El campo debe ser decimal de 0000.0000 hasta 9999.9999</value>
+  </data>
+  <data name="DosisM" xml:space="preserve">
+    <value>Debe ingresar la Dosis máxima </value>
+  </data>
+  <data name="DosisMaxDecimal" xml:space="preserve">
+    <value>Las Dosis máximas deben ser decimales de 0000.0000 hasta 9999.9999&lt;br&gt;</value>
+  </data>
+  <data name="DosisMaxR" xml:space="preserve">
+    <value>Las Dosis máximas son requeridas&lt;br&gt;</value>
+  </data>
+  <data name="DosisMD" xml:space="preserve">
+    <value>La Dosis máxima debe ser decimal de 0000.0000 hasta 9999.9999</value>
+  </data>
+  <data name="DosisMin" xml:space="preserve">
+    <value>Debe ingresar la Dosis mínima</value>
+  </data>
+  <data name="DosisMinD" xml:space="preserve">
+    <value>La Dosis mínima debe ser decimal de 0000.0000 hasta 9999.9999</value>
+  </data>
+  <data name="DosisMinDecimal" xml:space="preserve">
+    <value>Las Dosis mínimas deben ser decimales de 0000.0000 hasta 9999.9999&lt;br&gt;</value>
+  </data>
+  <data name="DosisMinN" xml:space="preserve">
+    <value>La Dosis mínima debe ser un número</value>
+  </data>
+  <data name="DosisMinR" xml:space="preserve">
+    <value>Las Dosis mínimas son requeridas&lt;br&gt;</value>
+  </data>
+  <data name="DosisMN" xml:space="preserve">
+    <value>La Dosis máxima debe ser un número</value>
+  </data>
+  <data name="EPA" xml:space="preserve">
+    <value>Debe ingresar el EPA Ref.#180</value>
+  </data>
+  <data name="EPAE" xml:space="preserve">
+    <value>El EPA Ref.#180 no debe exeder 15 caracteres</value>
+  </data>
+  <data name="fichaPDF" xml:space="preserve">
+    <value>La Ficha Técnica debe ser en formato PDF.</value>
+  </data>
+  <data name="hojaPDF" xml:space="preserve">
+    <value>La Hoja de Seguridad debe ser en formato PDF.</value>
+  </data>
+  <data name="horasT" xml:space="preserve">
+    <value>Las horas de Tolerancia entre aplicaciones son requeridos</value>
+  </data>
+  <data name="horasTE" xml:space="preserve">
+    <value>Las horas de Tolerancia entre aplicaciones deben ser mayores a 0</value>
+  </data>
+  <data name="horasTN" xml:space="preserve">
+    <value>Las horas de Tolerancia entre aplicaciones deben ser numéricas</value>
+  </data>
+  <data name="iaE" xml:space="preserve">
+    <value>El Ingrediente activo no debe exeder 60 caracteres</value>
+  </data>
+  <data name="iaR" xml:space="preserve">
+    <value>Debe ingresar el Ingrediente activo</value>
+  </data>
+  <data name="Intervalo" xml:space="preserve">
+    <value>Debe ingresar el Intervalo de seguridad a cosecha</value>
+  </data>
+  <data name="IntervaloD" xml:space="preserve">
+    <value>El Intervalo de seguridad a cosecha debe ser decimal de 00.00 hasta 99.99</value>
+  </data>
+  <data name="IntervaloN" xml:space="preserve">
+    <value>El Intervalo de seguridad a cosecha debe ser un número</value>
+  </data>
+  <data name="maxA" xml:space="preserve">
+    <value>Debe ingresar el Máximo de aplicaciones por ciclo</value>
+  </data>
+  <data name="maxAD" xml:space="preserve">
+    <value>El  Máximo de aplicaciones por ciclo debe ser decimal de 0000.0000 hasta 9999.9999</value>
+  </data>
+  <data name="maxAN" xml:space="preserve">
+    <value>El Máximo de aplicaciones por ciclo debe ser un número</value>
+  </data>
+  <data name="maxAP" xml:space="preserve">
+    <value>Al menos una Plaga debe ser registrada para el químico</value>
+  </data>
+  <data name="minT" xml:space="preserve">
+    <value>Los minutos de Tolerancia entre aplicaciones son requeridos</value>
+  </data>
+  <data name="minTE" xml:space="preserve">
+    <value>Los minutos de Tolerancia entre aplicaciones deben ser mayores a 0</value>
+  </data>
+  <data name="minTN" xml:space="preserve">
+    <value>Los minutos de Tolerancia entre aplicaciones debe ser numérico</value>
+  </data>
+  <data name="persistencia" xml:space="preserve">
+    <value>El campo Persistencia en días para abejorros debe ser numérico</value>
+  </data>
+  <data name="persistenciaD" xml:space="preserve">
+    <value>Las Unidades de persistencia en días para abejorros deben ser decimales de 00.00 hasta 99.99</value>
+  </data>
+  <data name="reentrada" xml:space="preserve">
+    <value>Debe ingresar el Tiempo de reentrada</value>
+  </data>
+  <data name="reentradaD" xml:space="preserve">
+    <value>El Tiempo de reentrada debe ser decimal de 00.00 hasta 99.99</value>
+  </data>
+  <data name="reentradaN" xml:space="preserve">
+    <value>El Tiempo de reentrada debe ser un número</value>
+  </data>
+  <data name="registroPDF" xml:space="preserve">
+    <value>El Registro cofepris debe ser en formato PDF.</value>
+  </data>
+  <data name="tolerancia" xml:space="preserve">
+    <value>Debe ingresar la Tolerancia EPA. ppm</value>
+  </data>
+  <data name="toleranciaE" xml:space="preserve">
+    <value>La Tolerancia EPA. ppm no debe exeder 15 caracteres</value>
+  </data>
+  <data name="UDosis" xml:space="preserve">
+    <value>Debe ingresar las Unidades de dosis</value>
+  </data>
+  <data name="UDosisD" xml:space="preserve">
+    <value>Las Unidades de dosis deben ser decimales de 0000.0000 hasta 9999.9999</value>
+  </data>
+  <data name="UDosisN" xml:space="preserve">
+    <value>Las Unidades de dosis deben ser numéricas</value>
+  </data>
+  <data name="unaPlaga" xml:space="preserve">
+    <value>Al menos una plaga debe ser registrada para el químico</value>
+  </data>
+  <data name="aPlaga" xml:space="preserve">
+    <value>Debe agregarse al menos una plaga que controla &lt;br/&gt;</value>
+  </data>
+  <data name="Aplicaciones" xml:space="preserve">
+    <value>Aplicaciones</value>
+  </data>
+  <data name="btnActualizar.Text" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btnLimpiar.Text" xml:space="preserve">
+    <value>Limpiar</value>
+  </data>
+  <data name="Button1" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="CampoHorasTN" xml:space="preserve">
+    <value>Las horas en Tolerancia entre aplicaciones deben ser numericas&lt;br&gt;</value>
+  </data>
+  <data name="CampoIntervaloN" xml:space="preserve">
+    <value>El campo Intervalo de seguridad a cosecha debe ser número&lt;br&gt;</value>
+  </data>
+  <data name="CampoMaximaN" xml:space="preserve">
+    <value>El campo Máxima aplicación por ciclo debe ser número&lt;br&gt;</value>
+  </data>
+  <data name="CampoMinutosTN" xml:space="preserve">
+    <value>Los minutos en Tolerancia entre aplicaciones deben ser numericos&lt;br&gt;</value>
+  </data>
+  <data name="CampoPersistenciaN" xml:space="preserve">
+    <value>El campo persistencia dias debe ser número&lt;br&gt;</value>
+  </data>
+  <data name="CampoTiempoN" xml:space="preserve">
+    <value>El campo Tiempo de reentrada debe ser número&lt;br&gt;</value>
+  </data>
+  <data name="cc" xml:space="preserve">
+    <value>cc</value>
+  </data>
+  <data name="Coadyuvante" xml:space="preserve">
+    <value>Coadyuvante</value>
+  </data>
+  <data name="Coadyuvante.Text" xml:space="preserve">
+    <value>Coadyuvante</value>
+  </data>
+  <data name="CompA.HeaderText" xml:space="preserve">
+    <value>Comp. Abejorros</value>
+  </data>
+  <data name="Cubrir" xml:space="preserve">
+    <value>Cubir</value>
+  </data>
+  <data name="Cubrir.Text" xml:space="preserve">
+    <value>Cubrir</value>
+  </data>
+  <data name="d6_EPA180.HeaderText" xml:space="preserve">
+    <value>EPA Ref.#18</value>
+  </data>
+  <data name="d6_EPATOL.HeaderText" xml:space="preserve">
+    <value>Tolerancia EPA. ppm</value>
+  </data>
+  <data name="d6_GPOQUIM.HeaderText" xml:space="preserve">
+    <value>Grupo Químico</value>
+  </data>
+  <data name="d6_INGACT.HeaderText" xml:space="preserve">
+    <value>Ingrediente Activo</value>
+  </data>
+  <data name="d6_MAXAPLETIQ.HeaderText" xml:space="preserve">
+    <value>Etiqueta de máxima aplicación</value>
+  </data>
+  <data name="d6_PERSIS.HeaderText" xml:space="preserve">
+    <value>Persistencia Días</value>
+  </data>
+  <data name="d6_REENT.HeaderText" xml:space="preserve">
+    <value>Tiempo de reentrada</value>
+  </data>
+  <data name="d6_TYPEQUIM.HeaderText" xml:space="preserve">
+    <value>Tipo de químico</value>
+  </data>
+  <data name="Desconocido" xml:space="preserve">
+    <value>Desconocido</value>
+  </data>
+  <data name="Desconocido.Text" xml:space="preserve">
+    <value>Desconocido</value>
+  </data>
+  <data name="dias" xml:space="preserve">
+    <value>Días</value>
+  </data>
+  <data name="dosis.HeaderText" xml:space="preserve">
+    <value>Dosis</value>
+  </data>
+  <data name="dosis1" xml:space="preserve">
+    <value>Dosis</value>
+  </data>
+  <data name="errorP" xml:space="preserve">
+    <value>&lt;br&gt;error personalizado</value>
+  </data>
+  <data name="Esponjas" xml:space="preserve">
+    <value>Esponjas</value>
+  </data>
+  <data name="exist" xml:space="preserve">
+    <value>No se efectuarán cambios intentelo de nuevo.</value>
+  </data>
+  <data name="fichaPDFBR" xml:space="preserve">
+    <value>La Ficha Técnica debe ser en formato PDF. &lt;br/&gt;</value>
+  </data>
+  <data name="Fungicida" xml:space="preserve">
+    <value>Fungicida</value>
+  </data>
+  <data name="Fungicida.Text" xml:space="preserve">
+    <value>Fungicida</value>
+  </data>
+  <data name="FungicidaOrganico" xml:space="preserve">
+    <value>Fungicida Orgánico</value>
+  </data>
+  <data name="FungicidaOrganico.Text" xml:space="preserve">
+    <value>Fungicida Orgánico</value>
+  </data>
+  <data name="Gramos" xml:space="preserve">
+    <value>Gramos</value>
+  </data>
+  <data name="gvQuimico.EmptyDataText" xml:space="preserve">
+    <value>No existen registros</value>
+  </data>
+  <data name="Hectareas" xml:space="preserve">
+    <value>Hectáreas</value>
+  </data>
+  <data name="hojaPDFBR" xml:space="preserve">
+    <value>La hoja de seguridad debe ser en formato PDF. &lt;br/&gt;</value>
+  </data>
+  <data name="horas" xml:space="preserve">
+    <value>Horas</value>
+  </data>
+  <data name="Incompatible" xml:space="preserve">
+    <value>Incompatible</value>
+  </data>
+  <data name="Incompatible.Text" xml:space="preserve">
+    <value>Incompatible</value>
+  </data>
+  <data name="Indicaciones.HeaderText" xml:space="preserve">
+    <value>Indicaciones</value>
+  </data>
+  <data name="Insecticida" xml:space="preserve">
+    <value>Insecticida</value>
+  </data>
+  <data name="Insecticida.Text" xml:space="preserve">
+    <value>Insecticida</value>
+  </data>
+  <data name="InsecticidaOrganico" xml:space="preserve">
+    <value>Insecticida Orgánico</value>
+  </data>
+  <data name="InsecticidaOrganico.Text" xml:space="preserve">
+    <value>Insecticida Orgánico</value>
+  </data>
+  <data name="ITMSHNAM.HeaderText" xml:space="preserve">
+    <value>Nombre Comercial</value>
+  </data>
+  <data name="Kilogramos" xml:space="preserve">
+    <value>Kilogramos</value>
+  </data>
+  <data name="Literal1.Text" xml:space="preserve">
+    <value>Ingrediente activo</value>
+  </data>
+  <data name="Literal10.Text" xml:space="preserve">
+    <value>Grupo Qu&amp;iacute;mico</value>
+  </data>
+  <data name="Literal11.Text" xml:space="preserve">
+    <value>Compatibilidad con abejorros</value>
+  </data>
+  <data name="Literal12.Text" xml:space="preserve">
+    <value>Persistencia en d&amp;iacute;as para abejorros</value>
+  </data>
+  <data name="Literal13.Text" xml:space="preserve">
+    <value>Mínima</value>
+  </data>
+  <data name="Literal14.Text" xml:space="preserve">
+    <value>Etiqueta M&amp;aacute;xima aplicaci&amp;oacute;n</value>
+  </data>
+  <data name="Literal15.Text" xml:space="preserve">
+    <value>Máxima</value>
+  </data>
+  <data name="Literal16.Text" xml:space="preserve">
+    <value>Ficha Técnica</value>
+  </data>
+  <data name="Literal17.Text" xml:space="preserve">
+    <value>Hoja de Seguridad</value>
+  </data>
+  <data name="Literal18.Text" xml:space="preserve">
+    <value>Registro Cofepris</value>
+  </data>
+  <data name="Literal19.Text" xml:space="preserve">
+    <value>M&amp;aacute;xima aplicación por ciclo</value>
+  </data>
+  <data name="Literal2.Text" xml:space="preserve">
+    <value>Intervalo de seguridad a cosecha</value>
+  </data>
+  <data name="Literal20.Text" xml:space="preserve">
+    <value>Plagas que controla:</value>
+  </data>
+  <data name="Literal3.Text" xml:space="preserve">
+    <value>Tolerancia EPA. ppm</value>
+  </data>
+  <data name="Literal4.Text" xml:space="preserve">
+    <value>Tiempo de reentrada</value>
+  </data>
+  <data name="Literal5.Text" xml:space="preserve">
+    <value>EPA Ref.#180</value>
+  </data>
+  <data name="Literal6.Text" xml:space="preserve">
+    <value>Indicaciones</value>
+  </data>
+  <data name="Literal7.Text" xml:space="preserve">
+    <value>Por Ciclo de cultivo</value>
+  </data>
+  <data name="Literal8.Text" xml:space="preserve">
+    <value>Tipo de Qu&amp;iacute;mico</value>
+  </data>
+  <data name="Literal9.Text" xml:space="preserve">
+    <value>Tolerancia entre Aplicaciones (hrs)</value>
+  </data>
+  <data name="Litros" xml:space="preserve">
+    <value>Litros</value>
+  </data>
+  <data name="litrosAg" xml:space="preserve">
+    <value>Litros de Agua</value>
+  </data>
+  <data name="ltMaxAplicacionTipo.Text" xml:space="preserve">
+    <value>Aplicaciones</value>
+  </data>
+  <data name="ltNombreComercial.Text" xml:space="preserve">
+    <value>Nombre Comercial del Qu&amp;iacute;mico:</value>
+  </data>
+  <data name="ltSubtituli.Text" xml:space="preserve">
+    <value>Seleccione y edite los extras del químico</value>
+  </data>
+  <data name="MetrosQ" xml:space="preserve">
+    <value>Metros Cuadrados</value>
+  </data>
+  <data name="Mililitros" xml:space="preserve">
+    <value>Mililitros</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>Mínima</value>
+  </data>
+  <data name="plagas.HeaderText" xml:space="preserve">
+    <value>Plagas que controla</value>
+  </data>
+  <data name="rbMaxCantidad.Text" xml:space="preserve">
+    <value>Cantidad de producto</value>
+  </data>
+  <data name="rbMaxNumero.Text" xml:space="preserve">
+    <value>N&amp;uacute;mero de aplicaciones</value>
+  </data>
+  <data name="registroPDFBR" xml:space="preserve">
+    <value>El registro Cofepris debe ser en formato PDF. &lt;br/&gt;</value>
+  </data>
+  <data name="Remover" xml:space="preserve">
+    <value>Remover</value>
+  </data>
+  <data name="Remover.Text" xml:space="preserve">
+    <value>Remover</value>
+  </data>
+  <data name="RGRL02" xml:space="preserve">
+    <value>Error #RGRL02: Se perdió la información del ID actual</value>
+  </data>
+  <data name="saveIt" xml:space="preserve">
+    <value>Cambios realizados.</value>
+  </data>
+  <data name="Seleccione" xml:space="preserve">
+    <value>-Seleccione-</value>
+  </data>
+  <data name="SinProteccion" xml:space="preserve">
+    <value>Sin Protección</value>
+  </data>
+  <data name="SinProteccion.Text" xml:space="preserve">
+    <value>Sin Protección</value>
+  </data>
+  <data name="ToleranciaApli.HeaderText" xml:space="preserve">
+    <value>Tolerancia entre Aplicaciones</value>
+  </data>
+  <data name="Unica" xml:space="preserve">
+    <value>-Unica-</value>
+  </data>
+  <data name="lblBienvenido.Text" xml:space="preserve">
+    <value>Qu&amp;iacute;mico</value>
+  </data>
+  <data name="Literal21.Text" xml:space="preserve">
+    <value>Dosis</value>
+  </data>
+  <data name="borrarPlagas" xml:space="preserve">
+    <value>Debido a que el químico seleccionado es "Comodín", no debe relacionarse a ninguna plaga. Por favor, elimine cualquier plaga seleccionada.</value>
+  </data>
+  <data name="ltComodin" xml:space="preserve">
+    <value>Comodín</value>
+  </data>
+</root>

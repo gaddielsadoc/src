@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Abierto" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="Abr" xml:space="preserve">
+    <value>Apr</value>
+  </data>
+  <data name="Abril" xml:space="preserve">
+    <value>April</value>
+  </data>
+  <data name="Ago" xml:space="preserve">
+    <value>Aug</value>
+  </data>
+  <data name="Agosto" xml:space="preserve">
+    <value>August</value>
+  </data>
+  <data name="AmbasFechas" xml:space="preserve">
+    <value>Select both dates</value>
+  </data>
+  <data name="btnBuscar.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="btnXport.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="Cancelado" xml:space="preserve">
+    <value>Canceled</value>
+  </data>
+  <data name="Dic" xml:space="preserve">
+    <value>Dic</value>
+  </data>
+  <data name="Diciembre" xml:space="preserve">
+    <value>Dicember</value>
+  </data>
+  <data name="Do" xml:space="preserve">
+    <value>Su</value>
+  </data>
+  <data name="Dom" xml:space="preserve">
+    <value>Sun</value>
+  </data>
+  <data name="Domingo" xml:space="preserve">
+    <value>Sunday</value>
+  </data>
+  <data name="Ejecutado" xml:space="preserve">
+    <value>Executed</value>
+  </data>
+  <data name="Ene" xml:space="preserve">
+    <value>Jan</value>
+  </data>
+  <data name="Enero" xml:space="preserve">
+    <value>January</value>
+  </data>
+  <data name="Entregado" xml:space="preserve">
+    <value>Delivered</value>
+  </data>
+  <data name="ErrorDatos" xml:space="preserve">
+    <value>Error Processing data:</value>
+  </data>
+  <data name="Feb" xml:space="preserve">
+    <value>Feb</value>
+  </data>
+  <data name="Febrero" xml:space="preserve">
+    <value>February</value>
+  </data>
+  <data name="FechaIncoherente" xml:space="preserve">
+    <value>The date 'since' can not be greater than 'until'</value>
+  </data>
+  <data name="FormatoFecha" xml:space="preserve">
+    <value>The date must be entered in the format:</value>
+  </data>
+  <data name="FormatoFechaMin" xml:space="preserve">
+    <value>The minimal date must be entered in the format:</value>
+  </data>
+  <data name="gv.EmptyDataText" xml:space="preserve">
+    <value>No records</value>
+  </data>
+  <data name="htUserMod.HeaderText" xml:space="preserve">
+    <value>Canceled /  Modified by</value>
+  </data>
+  <data name="htvUserCreo.HeaderText" xml:space="preserve">
+    <value>Created by</value>
+  </data>
+  <data name="htPedidas.HeaderText" xml:space="preserve">
+    <value>Requested amount</value>
+  </data>
+  <data name="htNombreNuevo.HeaderText" xml:space="preserve">
+    <value>New Program</value>
+  </data>
+  <data name="htNombre.HeaderText" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="htRazon.HeaderText" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="Ju" xml:space="preserve">
+    <value>Th</value>
+  </data>
+  <data name="Jue" xml:space="preserve">
+    <value>Thu</value>
+  </data>
+  <data name="Jueves" xml:space="preserve">
+    <value>Thursday</value>
+  </data>
+  <data name="Jul" xml:space="preserve">
+    <value>Jul</value>
+  </data>
+  <data name="Julio" xml:space="preserve">
+    <value>July</value>
+  </data>
+  <data name="Jun" xml:space="preserve">
+    <value>Jun</value>
+  </data>
+  <data name="Junio" xml:space="preserve">
+    <value>June</value>
+  </data>
+  <data name="ltBuscar.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="ltCreadoDesde.Text" xml:space="preserve">
+    <value>Canceled / Canged since</value>
+  </data>
+  <data name="ltEstatus.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="ltHasta.Text" xml:space="preserve">
+    <value>Until</value>
+  </data>
+  <data name="ltInvernadero.Text" xml:space="preserve">
+    <value>Greenhouse</value>
+  </data>
+  <data name="ltPlanta.Text" xml:space="preserve">
+    <value>Farm</value>
+  </data>
+  <data name="ltProductor.Text" xml:space="preserve">
+    <value>Grower</value>
+  </data>
+  <data name="ltReporteDeProgramas.Text" xml:space="preserve">
+    <value>Cancellation / Modification Programs Report</value>
+  </data>
+  <data name="Lu" xml:space="preserve">
+    <value>Mo</value>
+  </data>
+  <data name="Lun" xml:space="preserve">
+    <value>Mon</value>
+  </data>
+  <data name="Lunes" xml:space="preserve">
+    <value>Monday</value>
+  </data>
+  <data name="Ma" xml:space="preserve">
+    <value>Tu</value>
+  </data>
+  <data name="Mar" xml:space="preserve">
+    <value>Tue</value>
+  </data>
+  <data name="Martes" xml:space="preserve">
+    <value>Tuesdey</value>
+  </data>
+  <data name="Marzo" xml:space="preserve">
+    <value>Macrh</value>
+  </data>
+  <data name="May" xml:space="preserve">
+    <value>May</value>
+  </data>
+  <data name="Mayo" xml:space="preserve">
+    <value>May</value>
+  </data>
+  <data name="Mi" xml:space="preserve">
+    <value>We</value>
+  </data>
+  <data name="Mie" xml:space="preserve">
+    <value>Wed</value>
+  </data>
+  <data name="Miércoles" xml:space="preserve">
+    <value>Wednesday</value>
+  </data>
+  <data name="Mmar" xml:space="preserve">
+    <value>Mar</value>
+  </data>
+  <data name="Nov" xml:space="preserve">
+    <value>Nov</value>
+  </data>
+  <data name="Noviembre" xml:space="preserve">
+    <value>November</value>
+  </data>
+  <data name="Oct" xml:space="preserve">
+    <value>Oct</value>
+  </data>
+  <data name="Octubre" xml:space="preserve">
+    <value>Octuber</value>
+  </data>
+  <data name="Pendiente" xml:space="preserve">
+    <value>Slope</value>
+  </data>
+  <data name="Reporte" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="Sa" xml:space="preserve">
+    <value>Sa</value>
+  </data>
+  <data name="Sab" xml:space="preserve">
+    <value>Sat</value>
+  </data>
+  <data name="Sep" xml:space="preserve">
+    <value>Sep</value>
+  </data>
+  <data name="Septiembre" xml:space="preserve">
+    <value>September</value>
+  </data>
+  <data name="Sesion" xml:space="preserve">
+    <value>Your session has expired. Please refresh the page</value>
+  </data>
+  <data name="SinDatos" xml:space="preserve">
+    <value>No data to export</value>
+  </data>
+  <data name="Sábado" xml:space="preserve">
+    <value>Saturday</value>
+  </data>
+  <data name="Todos" xml:space="preserve">
+    <value>-- All --</value>
+  </data>
+  <data name="Vi" xml:space="preserve">
+    <value>Fr</value>
+  </data>
+  <data name="Vie" xml:space="preserve">
+    <value>Fri</value>
+  </data>
+  <data name="Viernes" xml:space="preserve">
+    <value>Friday</value>
+  </data>
+  <data name="Todas" xml:space="preserve">
+    <value>-- All --</value>
+  </data>
+  <data name="Entrega Parcial" xml:space="preserve">
+    <value>Partial Delivery</value>
+  </data>
+  <data name="No aplica" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="comentario" xml:space="preserve">
+    <value>Comment:</value>
+  </data>
+  <data name="ltInvernadero" xml:space="preserve">
+    <value>Greenhouse</value>
+  </data>
+  <data name="htdFechaCreacion.HeaderText" xml:space="preserve">
+    <value>Created on</value>
+  </data>
+  <data name="htfechaMod.HeaderText" xml:space="preserve">
+    <value>Canceled /  Modified on</value>
+  </data>
+  <data name="htInvernadero.HeaderText" xml:space="preserve">
+    <value>Greenhouse</value>
+  </data>
+  <data name="htPlanta.HeaderText" xml:space="preserve">
+    <value>Farm</value>
+  </data>
+  <data name="Modificado" xml:space="preserve">
+    <value>Modified</value>
+  </data>
+</root>

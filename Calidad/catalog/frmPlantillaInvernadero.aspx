@@ -1,0 +1,32 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="frmPlantillaInvernadero.aspx.cs" Inherits="catalog_frmPlantillaInvernadero" %>
+<%@ Register TagPrefix="uc1" TagName="popUpMessageControl" Src="~/controls/popUpMessageControl.ascx" %>
+
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <div class="container">
+        <table class="index" >
+            <tr>
+                <td><asp:Literal runat="server" ID="ltPlanta" Text="Planta"></asp:Literal></td>
+                <td><asp:DropDownList ID="ddlPlanta" runat="server" AppendDataBoundItems="true"></asp:DropDownList></td>
+                <td align="left"><asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/comun/img/download_xls.png" onclick="Unnamed1_Click" Width="32px" /></td>                
+            </tr>
+            <%--<tr>
+                <td><asp:Literal runat="server" ID="ltExport">Exportar Plantilla:</asp:Literal></td>
+                
+                <td colspan="2"></td>
+            </tr>--%>
+            <tr>
+                <td ><asp:Literal runat="server">Importar</asp:Literal></td>
+                <td align="left" ><asp:FileUpload runat="server" ID="File1" /></td>
+                <td ><asp:button id="btnImportar" runat="server" Text="Importar" onclick="btnImportar_Click"  ></asp:button></td>
+               
+            </tr>
+        </table>
+
+        <uc1:popupmessagecontrol ID="popUpMessageControl1" runat="server" />
+    </div>
+</asp:Content>
+

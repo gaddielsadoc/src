@@ -1,0 +1,57 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Services;
+using AjaxControlToolkit;
+using System.Data;
+using System.Collections.Specialized;
+
+/// <summary>
+/// Summary description for WebService
+/// </summary>
+[WebService(Namespace = "http://tempuri.org/")]
+[WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
+// To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line. 
+// [System.Web.Script.Services.ScriptService]
+public class WebService : System.Web.Services.WebService {
+
+    public WebService () {
+
+        //Uncomment the following line if using designed components 
+        //InitializeComponent(); 
+    }
+
+    [WebMethod]
+    public string HelloWorld() {
+        return "Hello World";
+    }
+    
+    [WebMethod]
+    public static CascadingDropDownNameValue[] GetInvernaderos(string knownCategoryValues, string category)
+    {
+        List<CascadingDropDownNameValue> _carModels = new List<CascadingDropDownNameValue>();
+
+        return _carModels.ToArray();
+    }
+
+    [WebMethod]
+     //[System.Web.Services.WebMethod]
+     //[System.Web.Script.Services.ScriptMethod]
+    public static CascadingDropDownNameValue[] GetPlantas(string knownCategoryValues, string category)
+    {
+        StringDictionary kv = CascadingDropDown.ParseKnownCategoryValuesString(knownCategoryValues); 
+        
+        List<CascadingDropDownNameValue> _plantas = new List<CascadingDropDownNameValue>();
+        var parameters = new Dictionary<string, object>();
+        var dt = DataAccess.executeStoreProcedureDataTable("dbo.spr_GET_ddlPlantas", parameters);
+
+        foreach (DataRow _row in dt.Rows)
+        {
+            _plantas.Add(new CascadingDropDownNameValue(_row["campoNombre"].ToString(), _row["campoId"].ToString()));
+        }
+
+        return _plantas.ToArray();
+    }
+    
+}

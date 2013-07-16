@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Abierto" xml:space="preserve">
+    <value>Abierto</value>
+  </data>
+  <data name="Abr" xml:space="preserve">
+    <value>Abr</value>
+  </data>
+  <data name="Abril" xml:space="preserve">
+    <value>Abril</value>
+  </data>
+  <data name="Ago" xml:space="preserve">
+    <value>Ago</value>
+  </data>
+  <data name="Agosto" xml:space="preserve">
+    <value>Agosto</value>
+  </data>
+  <data name="AmbasFechas" xml:space="preserve">
+    <value>Seleccione ambas fechas</value>
+  </data>
+  <data name="btnBuscar.Text" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="btnXport.Text" xml:space="preserve">
+    <value>Exportar</value>
+  </data>
+  <data name="Cancelado" xml:space="preserve">
+    <value>Cancelado</value>
+  </data>
+  <data name="Dic" xml:space="preserve">
+    <value>Dic</value>
+  </data>
+  <data name="Diciembre" xml:space="preserve">
+    <value>Diciembre</value>
+  </data>
+  <data name="Do" xml:space="preserve">
+    <value>Do</value>
+  </data>
+  <data name="Dom" xml:space="preserve">
+    <value>Dom</value>
+  </data>
+  <data name="Domingo" xml:space="preserve">
+    <value>Domingo</value>
+  </data>
+  <data name="Ejecutado" xml:space="preserve">
+    <value>Ejecutado</value>
+  </data>
+  <data name="Ene" xml:space="preserve">
+    <value>Ene</value>
+  </data>
+  <data name="Enero" xml:space="preserve">
+    <value>Enero</value>
+  </data>
+  <data name="Entregado" xml:space="preserve">
+    <value>Entregado</value>
+  </data>
+  <data name="ErrorDatos" xml:space="preserve">
+    <value>Error en el proceso de datos:</value>
+  </data>
+  <data name="Feb" xml:space="preserve">
+    <value>Feb</value>
+  </data>
+  <data name="Febrero" xml:space="preserve">
+    <value>Febrero</value>
+  </data>
+  <data name="FechaIncoherente" xml:space="preserve">
+    <value>La fecha 'desde' no puede ser mayor que 'hasta'</value>
+  </data>
+  <data name="FormatoFecha" xml:space="preserve">
+    <value>La fecha debe ingresarse en formato</value>
+  </data>
+  <data name="FormatoFechaMin" xml:space="preserve">
+    <value>La fecha mínima debe ingresarse en formato</value>
+  </data>
+  <data name="gv.EmptyDataText" xml:space="preserve">
+    <value>Sin registros</value>
+  </data>
+  <data name="htCosecha.HeaderText" xml:space="preserve">
+    <value>Cosecha</value>
+  </data>
+  <data name="htDosis.HeaderText" xml:space="preserve">
+    <value>Dosis</value>
+  </data>
+  <data name="htPedidas.HeaderText" xml:space="preserve">
+    <value>C. Solicitada</value>
+  </data>
+  <data name="htPesadas.HeaderText" xml:space="preserve">
+    <value>C. Pesada</value>
+  </data>
+  <data name="htProducto.HeaderText" xml:space="preserve">
+    <value>Producto</value>
+  </data>
+  <data name="htReentrada.HeaderText" xml:space="preserve">
+    <value>Reentrada</value>
+  </data>
+  <data name="Ju" xml:space="preserve">
+    <value>Ju</value>
+  </data>
+  <data name="Jue" xml:space="preserve">
+    <value>Jue</value>
+  </data>
+  <data name="Jueves" xml:space="preserve">
+    <value>Jueves</value>
+  </data>
+  <data name="Jul" xml:space="preserve">
+    <value>Jul</value>
+  </data>
+  <data name="Julio" xml:space="preserve">
+    <value>Julio</value>
+  </data>
+  <data name="Jun" xml:space="preserve">
+    <value>Jun</value>
+  </data>
+  <data name="Junio" xml:space="preserve">
+    <value>Junio</value>
+  </data>
+  <data name="ltBuscar.Text" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="ltCreadoDesde.Text" xml:space="preserve">
+    <value>Creado desde</value>
+  </data>
+  <data name="ltEstatus.Text" xml:space="preserve">
+    <value>Estatus</value>
+  </data>
+  <data name="ltHasta.Text" xml:space="preserve">
+    <value>Hasta</value>
+  </data>
+  <data name="ltInvernadero.Text" xml:space="preserve">
+    <value>Invernadero</value>
+  </data>
+  <data name="ltPlanta.Text" xml:space="preserve">
+    <value>Planta</value>
+  </data>
+  <data name="ltProductor.Text" xml:space="preserve">
+    <value>Grower (Productor)</value>
+  </data>
+  <data name="ltReporteDeProgramas.Text" xml:space="preserve">
+    <value>Reporte de Programas</value>
+  </data>
+  <data name="Lu" xml:space="preserve">
+    <value>Lu</value>
+  </data>
+  <data name="Lun" xml:space="preserve">
+    <value>Lun</value>
+  </data>
+  <data name="Lunes" xml:space="preserve">
+    <value>Lunes</value>
+  </data>
+  <data name="Ma" xml:space="preserve">
+    <value>Ma</value>
+  </data>
+  <data name="Mar" xml:space="preserve">
+    <value>Mar</value>
+  </data>
+  <data name="Martes" xml:space="preserve">
+    <value>Martes</value>
+  </data>
+  <data name="Marzo" xml:space="preserve">
+    <value>Marzo</value>
+  </data>
+  <data name="May" xml:space="preserve">
+    <value>May</value>
+  </data>
+  <data name="Mayo" xml:space="preserve">
+    <value>Mayo</value>
+  </data>
+  <data name="Mi" xml:space="preserve">
+    <value>Mi</value>
+  </data>
+  <data name="Mie" xml:space="preserve">
+    <value>Mie</value>
+  </data>
+  <data name="Miércoles" xml:space="preserve">
+    <value>Miércoles</value>
+  </data>
+  <data name="Mmar" xml:space="preserve">
+    <value>Mar</value>
+  </data>
+  <data name="Nov" xml:space="preserve">
+    <value>Nov</value>
+  </data>
+  <data name="Noviembre" xml:space="preserve">
+    <value>Noviembre</value>
+  </data>
+  <data name="Oct" xml:space="preserve">
+    <value>Oct</value>
+  </data>
+  <data name="Octubre" xml:space="preserve">
+    <value>Octubre</value>
+  </data>
+  <data name="Pendiente" xml:space="preserve">
+    <value>Pendiente</value>
+  </data>
+  <data name="Reporte" xml:space="preserve">
+    <value>Reporte</value>
+  </data>
+  <data name="Sa" xml:space="preserve">
+    <value>Sa</value>
+  </data>
+  <data name="Sab" xml:space="preserve">
+    <value>Sab</value>
+  </data>
+  <data name="Sep" xml:space="preserve">
+    <value>Sep</value>
+  </data>
+  <data name="Septiembre" xml:space="preserve">
+    <value>Septiembre</value>
+  </data>
+  <data name="Sesion" xml:space="preserve">
+    <value>Su sesión ha expirado. Por favor, refresque la página</value>
+  </data>
+  <data name="SinDatos" xml:space="preserve">
+    <value>No hay datos que exportar</value>
+  </data>
+  <data name="Sábado" xml:space="preserve">
+    <value>Sábado</value>
+  </data>
+  <data name="Todos" xml:space="preserve">
+    <value>-- Todos --</value>
+  </data>
+  <data name="Vi" xml:space="preserve">
+    <value>Vi</value>
+  </data>
+  <data name="Vie" xml:space="preserve">
+    <value>Vie</value>
+  </data>
+  <data name="Viernes" xml:space="preserve">
+    <value>Viernes</value>
+  </data>
+  <data name="Todas" xml:space="preserve">
+    <value>-- Todas --</value>
+  </data>
+  <data name="Entrega Parcial" xml:space="preserve">
+    <value>Entrega Parcial</value>
+  </data>
+  <data name="No aplica" xml:space="preserve">
+    <value>No aplica</value>
+  </data>
+  <data name="comentario" xml:space="preserve">
+    <value>Comentario:</value>
+  </data>
+  <data name="ltInvernadero" xml:space="preserve">
+    <value>Invernadero</value>
+  </data>
+</root>

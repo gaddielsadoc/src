@@ -1,0 +1,134 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Data;
+using System.IO;
+
+public partial class catalog_frmPlantillaInvernadero : BasePage
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!this.IsPostBack)
+        {
+            cargaDatos();
+        }
+        else
+        {
+ 
+        }
+    }
+
+    private void cargaDatos()
+    {
+        ddlPlanta.Items.Clear();
+        ddlPlanta.Items.Add(new System.Web.UI.WebControls.ListItem("Seleccione", "-1"));
+        try
+        {
+            Dictionary<string, object> prm = new Dictionary<string, object>();
+            prm.Add("@idUser", String.IsNullOrEmpty(Session["userIDCalidad"].ToString()) ? "0" : Session["userIDCalidad"].ToString());
+            DataSet dt = DataAccess.executeStoreProcedureDataSet("spr_GET_ddlPlantas", prm);
+            ddlPlanta.DataSource = dt;
+            ddlPlanta.DataValueField = "campoId";
+            ddlPlanta.DataTextField = "campoNombre";
+            ddlPlanta.DataBind();
+        }
+        catch (Exception x)
+        {
+            Log.Error(x);
+            popUpMessageControl1.setAndShowInfoMessage(x.Message, Common.MESSAGE_TYPE.Error);
+        }
+        
+    }
+    protected void Unnamed1_Click(object sender, ImageClickEventArgs e)
+    {
+        try
+        {
+            Dictionary<string, object> prm = new Dictionary<string, object>();
+            DataSet ds = DataAccess.executeStoreProcedureDataSet("spr_GET_ddlInvernaderosTodos", prm);
+            prm.Add("@idFarm", ddlPlanta.SelectedValue);
+            DataTable dt = DataAccess.executeStoreProcedureDataTable("spr_GET_ddlEquipoBoquilla", prm);
+            dt.TableName = "Boquillas";
+            ds.Tables.Add(dt);
+            Plantilla c = new Plantilla("Inverndaderos", ds, this.Response);
+            
+        }
+        catch (Exception x)
+        {
+            Log.Error(x);
+            popUpMessageControl1.setAndShowInfoMessage(x.Message, Common.MESSAGE_TYPE.Error);
+        }
+    }
+
+    protected void btnImportar_Click(object sender, EventArgs e)
+    {
+        string Destino = "";
+        try
+        {
+
+            if (!Path.GetFileName(File1.PostedFile.FileName).Equals(""))
+            {
+                string extension = System.IO.Path.GetExtension(File1.PostedFile.FileName);
+                if (extension == ".xls")
+                {
+                    try
+                    {
+                        Destino = Server.MapPath(null) + "\\TempImportedFiles\\" + Path.GetFileName(File1.PostedFile.FileName);
+                        File1.PostedFile.SaveAs(Destino);
+                        try
+                        {
+                            if (LecturaDeArchivoYCreacionDeTablas(Destino))
+                            {
+
+                                //tablaDatos.Visible = true;
+                                //repRows.Visible = true;
+                                //btnSave.Visible = true;
+                            }
+                            else
+                            {
+                                //tablaDatos.Visible = false;
+
+                            }
+                        }
+                        catch (Exception)
+                        {
+                            popUpMessageControl1.setAndShowInfoMessage("Error interno.", Common.MESSAGE_TYPE.Error);
+                        }
+                    }
+                    catch (Exception)
+                    {
+                        popUpMessageControl1.setAndShowInfoMessage("No se pudo escribir en el servidor.", Common.MESSAGE_TYPE.Error);
+                    }
+                }
+                else
+                    popUpMessageControl1.setAndShowInfoMessage("La extensión del archivo no es válida.", Common.MESSAGE_TYPE.Error);
+            }
+            else
+                popUpMessageControl1.setAndShowInfoMessage("Seleccione un archivo para importar.", Common.MESSAGE_TYPE.Info);
+
+        }
+        catch (Exception ex)
+        {
+
+            Log.Error(ex.ToString());
+        }
+        finally
+        {
+            if (File.Exists(Destino))
+                File.Delete(Destino);
+        }
+    }
+
+    private bool LecturaDeArchivoYCreacionDeTablas(string Destino)
+    {
+        CustomOleDbConnection cn = new CustomOleDbConnection(Destino);
+        cn.Open();
+        cn.setCommand("SELECT * FROM Volumen");
+        DataSet ds= cn.executeQuery();
+        cn.Close();
+        return true;
+    }
+
+}

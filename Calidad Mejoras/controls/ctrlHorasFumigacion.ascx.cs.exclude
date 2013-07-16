@@ -1,0 +1,65 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class controls_ctrlHorasFumigacion : System.Web.UI.UserControl
+{
+
+    decimal d = 1;
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+
+
+    protected void CerrarVentana(object sender, EventArgs e)
+    {
+        
+    }
+
+    protected void save_Click(object sender, EventArgs e)
+    {
+        if (String.IsNullOrEmpty(txtHoras.Text.Trim()))
+        {
+            popUpMessageControl1.setAndShowInfoMessage("El dato de Horas en necesario", Common.MESSAGE_TYPE.Error);
+            return;
+        }
+                
+        if (! decimal.TryParse(txtHoras.Text.Trim(), out d))
+        {
+            popUpMessageControl1.setAndShowInfoMessage("El dato de Horas no es correcto", Common.MESSAGE_TYPE.Error);
+            return;
+        }        
+    }
+
+    public decimal getValor() 
+    {
+        return d;
+    }   
+
+    public string showPopup( string quimicos)
+    {
+
+        var parameters = new Dictionary<string, object>();
+        parameters.Add("@Quimicos", quimicos);
+        string horas = "1";
+        try
+        {
+            horas = DataAccess.executeStoreProcedureString("spr_GET_HorasFumigacion", parameters);
+        }
+        catch (Exception e)
+        {
+            popUpMessageControl1.setAndShowInfoMessage("Error de proceso al intentar extraer la cantidad de horas: "+ e.Message, Common.MESSAGE_TYPE.Error);
+        }
+
+        txtHoras.Text = horas;       
+        mdlPopupMessageGralControl.Show();
+        
+        return txtHoras.Text;
+    }
+    
+}

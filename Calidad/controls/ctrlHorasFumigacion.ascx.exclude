@@ -1,0 +1,42 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="ctrlHorasFumigacion.ascx.cs" Inherits="controls_ctrlHorasFumigacion" %>
+<%@ Register TagPrefix="asp" Namespace="AjaxControlToolkit" Assembly="AjaxControlToolkit, Version=3.5.50401.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" %>
+<%@ Register Src="~/controls/popUpMessageControl.ascx" TagName="popUpMessageControl" TagPrefix="uc1" %>
+
+<asp:Panel ID="pnlCapturaHoras" runat="server" CssClass="modalPopup" Style="" width="300px">
+        <h1 style="width:800px; min-width:800px; display:table; margin-left:auto; margin-right:auto; max-width:800px;">
+            <asp:Label runat="server" ID="lbFecha" Text=" Horas de Fumigación"></asp:Label>            
+        </h1> 
+            
+     
+
+      <script type="text/javascript">
+          function metodoCancelar() {
+              $('#<%=btnOKMessageGralControl%>').click();
+          }
+    </script> 
+
+      <asp:TextBox ID="txtHoras" runat="server"></asp:TextBox> Hrs.
+            
+    
+        <table id="tablaDosis">
+            <tr>
+                <td>
+                    <asp:Button CssClass="button" runat="server" ID="Button1" OnClick="CerrarVentana" Text="Cancelar"  OnClientClick="javascript:metodoCancelar()"/>
+                    <asp:Button CssClass="button" runat="server" ID="btnOKMessageGralControl" Text="Cancelar" style="display: none;" />
+                    <asp:Button CssClass="button" runat="server" ID="save" Text="Guardar" 
+                        onclick="save_Click"/>
+                </td>
+            </tr> 
+        </table>
+ 
+
+    </asp:Panel>
+        <asp:LinkButton runat="server" ID="lnkHiddenMdlPopupControl"  Text=""  Enabled="false"/>
+        <asp:ModalPopupExtender ID="mdlPopupMessageGralControl" runat="server" 
+            BackgroundCssClass="modalBackground"
+            PopupControlID="pnlCapturaHoras" 
+            TargetControlID="lnkHiddenMdlPopupControl" 
+            CancelControlID="btnOKMessageGralControl">
+        </asp:ModalPopupExtender>
+        
+ <uc1:popUpMessageControl ID="popUpMessageControl1" runat="server" />

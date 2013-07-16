@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Email>
+    <Layout key="BoletinPublicado">
+        <From>appuser@naturesweet.com.mx</From>
+        <Subject>Boletín Publicado</Subject>
+        <HTMLBody>BoletinPublicado.htm</HTMLBody>
+        <Resources>
+            <Item Name="footerLogo" FileName="FooterNatureSweet.jpg">
+                footerLogo
+            </Item>
+            <Item Name="LogoNS" FileName="HeaderNatureSweetEmail.jpg">
+                LogoNS
+            </Item>
+        </Resources>
+    </Layout>
+    <Layout key="Aplicacion">
+        <From>appuser@naturesweet.com.mx</From>
+        <Subject>Nuevo Programa de Fumigación creado</Subject>
+        <HTMLBody>Aplicacion.htm</HTMLBody>
+        <Resources>
+            <Item Name="footerLogo" FileName="FooterNatureSweet.jpg">
+                footerLogo
+            </Item>
+            <Item Name="LogoNS" FileName="HeaderNatureSweetEmail.jpg">
+                LogoNS
+            </Item>
+        </Resources>
+    </Layout>
+    <Layout key="CancelarOT">
+        <From>appuser@naturesweet.com.mx</From>
+        <Subject>Orden de Trabajo cancelada</Subject>
+        <HTMLBody>CancelarOT.htm</HTMLBody>
+        <Resources>
+            <Item Name="footerLogo" FileName="FooterNatureSweet.jpg">
+                footerLogo
+            </Item>
+            <Item Name="LogoNS" FileName="HeaderNatureSweetEmail.jpg">
+                LogoNS
+            </Item>
+        </Resources>
+    </Layout>
+</Email>

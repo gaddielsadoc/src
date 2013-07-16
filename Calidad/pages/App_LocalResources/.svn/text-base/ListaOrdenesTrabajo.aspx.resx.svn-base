@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnActualizar.Text" xml:space="preserve">
+    <value>Filtar</value>
+  </data>
+  <data name="CargaInvError" xml:space="preserve">
+    <value>Error al intentar cargar los invernaderos</value>
+  </data>
+  <data name="CargaPaginaError" xml:space="preserve">
+    <value>Error al intentar cargar la página, intente de nuevo</value>
+  </data>
+  <data name="CargaPlantasError" xml:space="preserve">
+    <value>Error al intentar cargar las plantas</value>
+  </data>
+  <data name="chkAbierto.Text" xml:space="preserve">
+    <value>Abiertos</value>
+  </data>
+  <data name="chkAll.Text" xml:space="preserve">
+    <value>Seleccionar todos</value>
+  </data>
+  <data name="chkCancelado.Text" xml:space="preserve">
+    <value>Cancelados</value>
+  </data>
+  <data name="chkEntregado.Text" xml:space="preserve">
+    <value>Entregados</value>
+  </data>
+  <data name="chkPendiente.Text" xml:space="preserve">
+    <value>Pendientes</value>
+  </data>
+  <data name="gvOrdenTrabajo.EmptyDataText" xml:space="preserve">
+    <value>No existen registros</value>
+  </data>
+  <data name="htEstatus.HeaderText" xml:space="preserve">
+    <value>Estatus</value>
+  </data>
+  <data name="htFechaApliacion.HeaderText" xml:space="preserve">
+    <value>Fecha de apliación</value>
+  </data>
+  <data name="htHora.HeaderText" xml:space="preserve">
+    <value>Hora</value>
+  </data>
+  <data name="htInvernadero.HeaderText" xml:space="preserve">
+    <value>Invernadero</value>
+  </data>
+  <data name="htOrden.headerText" xml:space="preserve">
+    <value>Órden</value>
+  </data>
+  <data name="htPlanta.headertext" xml:space="preserve">
+    <value>Planta</value>
+  </data>
+  <data name="htSemana.HeaderText" xml:space="preserve">
+    <value>Semana</value>
+  </data>
+  <data name="jsFechaMaxima" xml:space="preserve">
+    <value>El formato de la fecha máxima debe ser  yyyy-MM-dd</value>
+  </data>
+  <data name="jsFechaMinima" xml:space="preserve">
+    <value>El formato de la fecha mínima debe ser yyyy-MM-dd</value>
+  </data>
+  <data name="ltBienvenido.Text" xml:space="preserve">
+    <value>Órdenes de Trabajo</value>
+  </data>
+  <data name="ltEstado.Text" xml:space="preserve">
+    <value>Estatus</value>
+  </data>
+  <data name="ltFechaDesde.Text" xml:space="preserve">
+    <value>Fecha de apliación desde</value>
+  </data>
+  <data name="ltFechaHasta.Text" xml:space="preserve">
+    <value>Fecha de apliación hasta</value>
+  </data>
+  <data name="ltInvernadero.Text" xml:space="preserve">
+    <value>Invernadero</value>
+  </data>
+  <data name="ltPlanta.Text" xml:space="preserve">
+    <value>Planta</value>
+  </data>
+  <data name="seleccione" xml:space="preserve">
+    <value>- Todos -</value>
+  </data>
+  <data name="Abierto" xml:space="preserve">
+    <value>Abierto</value>
+  </data>
+  <data name="Cancelado" xml:space="preserve">
+    <value>Cancelado</value>
+  </data>
+  <data name="Entregado" xml:space="preserve">
+    <value>Entregado</value>
+  </data>
+  <data name="Pendiente" xml:space="preserve">
+    <value>Pendiente</value>
+  </data>
+  <data name="Abr" xml:space="preserve">
+    <value>Abr</value>
+  </data>
+  <data name="Abril" xml:space="preserve">
+    <value>Abril</value>
+  </data>
+  <data name="Ago" xml:space="preserve">
+    <value>Ago</value>
+  </data>
+  <data name="Agosto" xml:space="preserve">
+    <value>Agosto</value>
+  </data>
+  <data name="Dic" xml:space="preserve">
+    <value>Dic</value>
+  </data>
+  <data name="Diciembre" xml:space="preserve">
+    <value>Diciembre</value>
+  </data>
+  <data name="Do" xml:space="preserve">
+    <value>Do</value>
+  </data>
+  <data name="Dom" xml:space="preserve">
+    <value>Dom</value>
+  </data>
+  <data name="Domingo" xml:space="preserve">
+    <value>Domingo</value>
+  </data>
+  <data name="Ene" xml:space="preserve">
+    <value>Ene</value>
+  </data>
+  <data name="Enero" xml:space="preserve">
+    <value>Enero</value>
+  </data>
+  <data name="Feb" xml:space="preserve">
+    <value>Feb</value>
+  </data>
+  <data name="Febrero" xml:space="preserve">
+    <value>Febrero</value>
+  </data>
+  <data name="Ju" xml:space="preserve">
+    <value>Ju</value>
+  </data>
+  <data name="Jue" xml:space="preserve">
+    <value>Jue</value>
+  </data>
+  <data name="Jueves" xml:space="preserve">
+    <value>Jueves</value>
+  </data>
+  <data name="Jul" xml:space="preserve">
+    <value>Jul</value>
+  </data>
+  <data name="Julio" xml:space="preserve">
+    <value>Julio</value>
+  </data>
+  <data name="Jun" xml:space="preserve">
+    <value>Jun</value>
+  </data>
+  <data name="Junio" xml:space="preserve">
+    <value>Junio</value>
+  </data>
+  <data name="Lu" xml:space="preserve">
+    <value>Lu</value>
+  </data>
+  <data name="Lun" xml:space="preserve">
+    <value>Lun</value>
+  </data>
+  <data name="Lunes" xml:space="preserve">
+    <value>Lunes</value>
+  </data>
+  <data name="Ma" xml:space="preserve">
+    <value>Ma</value>
+  </data>
+  <data name="Mar" xml:space="preserve">
+    <value>Mar</value>
+  </data>
+  <data name="Martes" xml:space="preserve">
+    <value>Martes</value>
+  </data>
+  <data name="Marzo" xml:space="preserve">
+    <value>Marzo</value>
+  </data>
+  <data name="May" xml:space="preserve">
+    <value>May</value>
+  </data>
+  <data name="Mayo" xml:space="preserve">
+    <value>Mayo</value>
+  </data>
+  <data name="Mi" xml:space="preserve">
+    <value>Mi</value>
+  </data>
+  <data name="Mie" xml:space="preserve">
+    <value>Mie</value>
+  </data>
+  <data name="Miércoles" xml:space="preserve">
+    <value>Miércoles</value>
+  </data>
+  <data name="Mmar" xml:space="preserve">
+    <value>Mar</value>
+  </data>
+  <data name="Nov" xml:space="preserve">
+    <value>Nov</value>
+  </data>
+  <data name="Noviembre" xml:space="preserve">
+    <value>Noviembre</value>
+  </data>
+  <data name="Oct" xml:space="preserve">
+    <value>Oct</value>
+  </data>
+  <data name="Octubre" xml:space="preserve">
+    <value>Octubre</value>
+  </data>
+  <data name="Sa" xml:space="preserve">
+    <value>Sa</value>
+  </data>
+  <data name="Sab" xml:space="preserve">
+    <value>Sáb</value>
+  </data>
+  <data name="Sep" xml:space="preserve">
+    <value>Sep</value>
+  </data>
+  <data name="Septiembre" xml:space="preserve">
+    <value>Septiembre</value>
+  </data>
+  <data name="Sábado" xml:space="preserve">
+    <value>Sábado</value>
+  </data>
+  <data name="Vi" xml:space="preserve">
+    <value>Vi</value>
+  </data>
+  <data name="Vie" xml:space="preserve">
+    <value>Vie</value>
+  </data>
+  <data name="Viernes" xml:space="preserve">
+    <value>Viernes</value>
+  </data>
+  <data name="cancel.Text" xml:space="preserve">
+    <value>No Guardar</value>
+  </data>
+  <data name="save.Text" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>El acceso a la base de datos no es posible en estos momentos, por favor intente más tarde.</value>
+  </data>
+  <data name="Norasones" xml:space="preserve">
+    <value>No existen razones que aplicar a esta Planta. No es posible continuar con el proceso.</value>
+  </data>
+  <data name="lblBienvenida.Text" xml:space="preserve">
+    <value>Por favor seleccione cuál es la razón de cancelar esta orden de trabajo</value>
+  </data>
+  <data name="lbRazon.Text" xml:space="preserve">
+    <value>*Razón:</value>
+  </data>
+  <data name="ProgramaCancelado" xml:space="preserve">
+    <value>Programa cancelado exitosamente</value>
+  </data>
+  <data name="errorSeleccionarFila" xml:space="preserve">
+    <value>Error en el identificador de la fila. Por favor, intente de nuevo</value>
+  </data>
+  <data name="lblComentarios.Text" xml:space="preserve">
+    <value>Comentarios:</value>
+  </data>
+  <data name="CorreoError" xml:space="preserve">
+    <value>No fue posible enviar el correo</value>
+  </data>
+  <data name="CorreoExito" xml:space="preserve">
+    <value>Correo enviado exitosamente</value>
+  </data>
+</root>

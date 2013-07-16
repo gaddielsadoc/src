@@ -1,0 +1,630 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Abejorro.HeaderText" xml:space="preserve">
+    <value>Bumblebees</value>
+  </data>
+  <data name="AgregarTratamiento" xml:space="preserve">
+    <value>To add a treatment is necessary to enter a name</value>
+  </data>
+  <data name="ApliDesde.HeaderText" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="ApliHasta.HeaderText" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="BoquillaEquipo" xml:space="preserve">
+    <value>You must select the nozzle and application equipment</value>
+  </data>
+  <data name="btnAdd.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btnBuscar.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="btnCancelar.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btnGuardar.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnNo.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="btnSi.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="btnValidar.Text" xml:space="preserve">
+    <value>Validate</value>
+  </data>
+  <data name="CambioInvernadero" xml:space="preserve">
+    <value>By changing the Greenhouse, the chemicals that were previously on the screen will be lost.</value>
+  </data>
+  <data name="CantidadDeQuimico" xml:space="preserve">
+    <value>Verify that the amount requested for each chemical is a valid number</value>
+  </data>
+  <data name="CantidadPesada.HeaderText" xml:space="preserve">
+    <value>Weighed amount</value>
+  </data>
+  <data name="CantidadSolicitada.HeaderText" xml:space="preserve">
+    <value>Requested amount</value>
+  </data>
+  <data name="ckCapa.Text" xml:space="preserve">
+    <value>Prune</value>
+  </data>
+  <data name="ckFinCiclo.Text" xml:space="preserve">
+    <value>Until end of cycle</value>
+  </data>
+  <data name="ckFinCultivo.Text" xml:space="preserve">
+    <value>End of cultivation</value>
+  </data>
+  <data name="ckTratamiento.Text" xml:space="preserve">
+    <value>Create new treatment</value>
+  </data>
+  <data name="Datos" xml:space="preserve">
+    <value>Error in data processing</value>
+  </data>
+  <data name="Dosis.HeaderText" xml:space="preserve">
+    <value>Dosage</value>
+  </data>
+  <data name="Edad" xml:space="preserve">
+    <value>You must select the "age of cultivation"</value>
+  </data>
+  <data name="EdadEquipo" xml:space="preserve">
+    <value>You must select the "age of cultivation" and "application equipment"</value>
+  </data>
+  <data name="ErrorBoquilla" xml:space="preserve">
+    <value>Error in data processing when trying to load the type of nozzle</value>
+  </data>
+  <data name="ErrorCamposVacios" xml:space="preserve">
+    <value>Make sure all the fields have been selected</value>
+  </data>
+  <data name="ErrorCapacidadCarga" xml:space="preserve">
+    <value>The farm selected is not configured capacity. Configure the load in the catalog of "Loads"</value>
+  </data>
+  <data name="ErrorDiaSemana" xml:space="preserve">
+    <value>You must select a day</value>
+  </data>
+  <data name="ErrorEdadDelCultivo" xml:space="preserve">
+    <value>Error in the process of trying to load data age of the crop</value>
+  </data>
+  <data name="ErrorEquipoDeAplicacion" xml:space="preserve">
+    <value>Error in data processing when trying to load the application equipment</value>
+  </data>
+  <data name="ErrorGuardarTratamiento" xml:space="preserve">
+    <value>Error in data processing to try to save the Treatment</value>
+  </data>
+  <data name="ErrorHoras" xml:space="preserve">
+    <value>Process error when trying to extract the number of hours</value>
+  </data>
+  <data name="ErrorInvernadero" xml:space="preserve">
+    <value>Error in data processing when trying to load information about the greenhouse</value>
+  </data>
+  <data name="ErrorInvernaderos" xml:space="preserve">
+    <value>Error in data processing when trying to load the greenhouses</value>
+  </data>
+  <data name="ErrorLitros" xml:space="preserve">
+    <value>Error in data processing when trying to load information about the liters</value>
+  </data>
+  <data name="ErrorPlagas" xml:space="preserve">
+    <value>Error in data load process. Failed to load pests.</value>
+  </data>
+  <data name="ErrorPlantas" xml:space="preserve">
+    <value>Process failed while trying to load data farms</value>
+  </data>
+  <data name="ErrorProcesoDeDatos" xml:space="preserve">
+    <value>Error in data processing when trying to load the data</value>
+  </data>
+  <data name="ErrorSelecInv" xml:space="preserve">
+    <value>You must select a greenhouse</value>
+  </data>
+  <data name="ErrorSelecPlanta" xml:space="preserve">
+    <value>You must select a Farm</value>
+  </data>
+  <data name="ErrorTipoDeAplicacion" xml:space="preserve">
+    <value>You must select an application type</value>
+  </data>
+  <data name="ErrorTiposDeAplicacion" xml:space="preserve">
+    <value>Process failed while trying to load data application types</value>
+  </data>
+  <data name="Guardado" xml:space="preserve">
+    <value>Treatment and Program successfully saved</value>
+  </data>
+  <data name="GuardandoQuimicos" xml:space="preserve">
+    <value>Error in data processing chemicals while saving</value>
+  </data>
+  <data name="GuardarAplicacion" xml:space="preserve">
+    <value>The application requires to have at least one chemical for storage.</value>
+  </data>
+  <data name="gv.EmptyDataText" xml:space="preserve">
+    <value>No records</value>
+  </data>
+  <data name="gvQuimicosBuscados.EmptyDataText" xml:space="preserve">
+    <value>No records</value>
+  </data>
+  <data name="htAbejorros.HeaderText" xml:space="preserve">
+    <value>Bumblebees</value>
+  </data>
+  <data name="htNombre.HeaderText" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="htTratamiento.HeaderText" xml:space="preserve">
+    <value>Treatment</value>
+  </data>
+  <data name="imgToolTip.ToolTip" xml:space="preserve">
+    <value>This product may cause overdose</value>
+  </data>
+  <data name="IngredienteActivo.HeaderText" xml:space="preserve">
+    <value>Active Component</value>
+  </data>
+  <data name="lbIns1.Text" xml:space="preserve">
+    <value>Select the corresponding values</value>
+  </data>
+  <data name="lblBienvenido.Text" xml:space="preserve">
+    <value>Weekly program of fumigation</value>
+  </data>
+  <data name="lblConfirmar.Text" xml:space="preserve">
+    <value>Confirm the action</value>
+  </data>
+  <data name="lblCosecha.Text" xml:space="preserve">
+    <value>Harvest</value>
+  </data>
+  <data name="lblEquipoAplicacion.Text" xml:space="preserve">
+    <value>*Application Equipment</value>
+  </data>
+  <data name="lblHec.Text" xml:space="preserve">
+    <value>Hectare(s)</value>
+  </data>
+  <data name="lblInfo.Text" xml:space="preserve">
+    <value>Confirm the action</value>
+  </data>
+  <data name="lblInst2.Text" xml:space="preserve">
+    <value>Select pests</value>
+  </data>
+  <data name="lblInv.Text" xml:space="preserve">
+    <value>Greenhouse</value>
+  </data>
+  <data name="lblLts.Text" xml:space="preserve">
+    <value>Lts./Hectare</value>
+  </data>
+  <data name="lblP2.Text" xml:space="preserve">
+    <value>Are you sure to delete this chemical?</value>
+  </data>
+  <data name="lblPlanta.Text" xml:space="preserve">
+    <value>Farm</value>
+  </data>
+  <data name="lblPregunta.Text" xml:space="preserve">
+    <value>Are you sure to continue?</value>
+  </data>
+  <data name="lblReentrada.Text" xml:space="preserve">
+    <value>Re-entry</value>
+  </data>
+  <data name="lblSemanaCultivo.Text" xml:space="preserve">
+    <value>*Cultivation age</value>
+  </data>
+  <data name="lblTipoAplicacion.Text" xml:space="preserve">
+    <value>Application Type</value>
+  </data>
+  <data name="lblTipoBoquilla.Text" xml:space="preserve">
+    <value>Nozzle</value>
+  </data>
+  <data name="LitrosUsar.HeaderText" xml:space="preserve">
+    <value>Liters of Water</value>
+  </data>
+  <data name="ltDiaSugerido.Text" xml:space="preserve">
+    <value>*Suggested Day</value>
+  </data>
+  <data name="ltInvernadero.Text" xml:space="preserve">
+    <value>*Greenhouse</value>
+  </data>
+  <data name="ltNuevoTratamiento.Text" xml:space="preserve">
+    <value>*Treatment Name</value>
+  </data>
+  <data name="ltPlaga.Text" xml:space="preserve">
+    <value>Plague</value>
+  </data>
+  <data name="ltPlanta.Text" xml:space="preserve">
+    <value>*Farm</value>
+  </data>
+  <data name="NoCoinciden" xml:space="preserve">
+    <value>One or more data regarding the cultivation age and / or equipment used in the fumigation not match. Please ensure that the data entered is correct.</value>
+  </data>
+  <data name="nombre.Text" xml:space="preserve">
+    <value>*Name</value>
+  </data>
+  <data name="NombreAplicacion" xml:space="preserve">
+    <value>The name for the application is necessary.</value>
+  </data>
+  <data name="nomQuim.HeaderText" xml:space="preserve">
+    <value>Chemical</value>
+  </data>
+  <data name="Notas.Text" xml:space="preserve">
+    <value>Notes | Comments</value>
+  </data>
+  <data name="PlantaInvernadero" xml:space="preserve">
+    <value>You must select a farm and greenhouse</value>
+  </data>
+  <data name="ProgramaGuardado" xml:space="preserve">
+    <value>Program successfully saved</value>
+  </data>
+  <data name="QuimicoCero" xml:space="preserve">
+    <value>You can not apply the values ​​at zero chemical</value>
+  </data>
+  <data name="QuimicoIncorrecto" xml:space="preserve">
+    <value>One or more chemicals has incorrect value in the 'Requested Amount'</value>
+  </data>
+  <data name="QuimicoNegativo" xml:space="preserve">
+    <value>Negative values ​​can not apply to chemicals</value>
+  </data>
+  <data name="Rango" xml:space="preserve">
+    <value>Verify that the required amount are within the range </value>
+  </data>
+  <data name="reentrada.HeaderText" xml:space="preserve">
+    <value>Re-entry</value>
+  </data>
+  <data name="seleccione" xml:space="preserve">
+    <value>--  Select an option --</value>
+  </data>
+  <data name="SelecEquipo" xml:space="preserve">
+    <value>You must select an application equipment</value>
+  </data>
+  <data name="SelectBoquilla" xml:space="preserve">
+    <value>You must select a nozzle</value>
+  </data>
+  <data name="SelectQuimico" xml:space="preserve">
+    <value>Select at least one chemical or treatment. No chemicals are added to the program if they are repeated.</value>
+  </data>
+  <data name="Semana" xml:space="preserve">
+    <value>You must select a week</value>
+  </data>
+  <data name="SesionExpirada" xml:space="preserve">
+    <value>Your session has expired. Please refresh the page.</value>
+  </data>
+  <data name="SinConfig" xml:space="preserve">
+    <value>Unable to display data. It is possible that there is no setting for that age if you select 'From / To Prune' and / or 'Until the end of cycle'. Please ensure the data entered.</value>
+  </data>
+  <data name="String23" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="TratamientoRepetido" xml:space="preserve">
+    <value>Treatment already exists with that name, please enter another</value>
+  </data>
+  <data name="ValCorrecta" xml:space="preserve">
+    <value>Correct validation</value>
+  </data>
+  <data name="Abr" xml:space="preserve">
+    <value>Apr</value>
+  </data>
+  <data name="Abril" xml:space="preserve">
+    <value>April</value>
+  </data>
+  <data name="Ago" xml:space="preserve">
+    <value>Ago</value>
+  </data>
+  <data name="Agosto" xml:space="preserve">
+    <value>August</value>
+  </data>
+  <data name="Dic" xml:space="preserve">
+    <value>Dec</value>
+  </data>
+  <data name="Diciembre" xml:space="preserve">
+    <value>December</value>
+  </data>
+  <data name="Do" xml:space="preserve">
+    <value>Su</value>
+  </data>
+  <data name="Dom" xml:space="preserve">
+    <value>Sun</value>
+  </data>
+  <data name="Domingo" xml:space="preserve">
+    <value>Sunday</value>
+  </data>
+  <data name="Ene" xml:space="preserve">
+    <value>Jan</value>
+  </data>
+  <data name="Enero" xml:space="preserve">
+    <value>January</value>
+  </data>
+  <data name="Feb" xml:space="preserve">
+    <value>Feb</value>
+  </data>
+  <data name="Febrero" xml:space="preserve">
+    <value>February</value>
+  </data>
+  <data name="FormatoFecha" xml:space="preserve">
+    <value>The date must be entered in the format:</value>
+  </data>
+  <data name="Ju" xml:space="preserve">
+    <value>Th</value>
+  </data>
+  <data name="Jue" xml:space="preserve">
+    <value>Thu</value>
+  </data>
+  <data name="Jueves" xml:space="preserve">
+    <value>Thursday</value>
+  </data>
+  <data name="Jul" xml:space="preserve">
+    <value>Jul</value>
+  </data>
+  <data name="Julio" xml:space="preserve">
+    <value>July</value>
+  </data>
+  <data name="Jun" xml:space="preserve">
+    <value>Jun</value>
+  </data>
+  <data name="Junio" xml:space="preserve">
+    <value>June</value>
+  </data>
+  <data name="Lu" xml:space="preserve">
+    <value>Mo</value>
+  </data>
+  <data name="Lun" xml:space="preserve">
+    <value>Mon</value>
+  </data>
+  <data name="Lunes" xml:space="preserve">
+    <value>Monday</value>
+  </data>
+  <data name="Ma" xml:space="preserve">
+    <value>Tu</value>
+  </data>
+  <data name="Mar" xml:space="preserve">
+    <value>Tue</value>
+  </data>
+  <data name="Martes" xml:space="preserve">
+    <value>Tuesdey</value>
+  </data>
+  <data name="Marzo" xml:space="preserve">
+    <value>March</value>
+  </data>
+  <data name="May" xml:space="preserve">
+    <value>May</value>
+  </data>
+  <data name="Mayo" xml:space="preserve">
+    <value>May</value>
+  </data>
+  <data name="Mi" xml:space="preserve">
+    <value>We</value>
+  </data>
+  <data name="Mie" xml:space="preserve">
+    <value>Wed</value>
+  </data>
+  <data name="Miércoles" xml:space="preserve">
+    <value>Wednesday</value>
+  </data>
+  <data name="Mmar" xml:space="preserve">
+    <value>Mar</value>
+  </data>
+  <data name="Nov" xml:space="preserve">
+    <value>Nov</value>
+  </data>
+  <data name="Noviembre" xml:space="preserve">
+    <value>November</value>
+  </data>
+  <data name="Oct" xml:space="preserve">
+    <value>Oct</value>
+  </data>
+  <data name="Octubre" xml:space="preserve">
+    <value>October</value>
+  </data>
+  <data name="Sa" xml:space="preserve">
+    <value>Sa</value>
+  </data>
+  <data name="Sab" xml:space="preserve">
+    <value>Sat</value>
+  </data>
+  <data name="Sep" xml:space="preserve">
+    <value>Sep</value>
+  </data>
+  <data name="Septiembre" xml:space="preserve">
+    <value>September</value>
+  </data>
+  <data name="Sábado" xml:space="preserve">
+    <value>Saturday</value>
+  </data>
+  <data name="Vi" xml:space="preserve">
+    <value>Fr</value>
+  </data>
+  <data name="Vie" xml:space="preserve">
+    <value>Fri</value>
+  </data>
+  <data name="Viernes" xml:space="preserve">
+    <value>Friday</value>
+  </data>
+  <data name="Cubrir" xml:space="preserve">
+    <value>Cover</value>
+  </data>
+  <data name="Desconocido" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="Incompatible" xml:space="preserve">
+    <value>Incompatible</value>
+  </data>
+  <data name="Remover" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="Sin Proteccion" xml:space="preserve">
+    <value>Unprotected</value>
+  </data>
+  <data name="ExistQuimicos" xml:space="preserve">
+    <value>The chemicals to be added already exist in the Treatment of "{0}" with the name "{1}". Please try again.</value>
+  </data>
+  <data name="htPlanta.HeaderText" xml:space="preserve">
+    <value>Farm</value>
+  </data>
+  <data name="ErrorComodines" xml:space="preserve">
+    <value>It was not possible to load the "Wildcards" used</value>
+  </data>
+  <data name="lblComodines" xml:space="preserve">
+    <value>Wildcards</value>
+  </data>
+  <data name="abejorro" xml:space="preserve">
+    <value>(Bumblebee)</value>
+  </data>
+  <data name="persistencia" xml:space="preserve">
+    <value>(Persistence d.)</value>
+  </data>
+  <data name="presistencia.HeaderText" xml:space="preserve">
+    <value>Persistence (days)</value>
+  </data>
+  <data name="Quimico" xml:space="preserve">
+    <value>(Chemical)</value>
+  </data>
+  <data name="CorreoError" xml:space="preserve">
+    <value>Unable to send mail</value>
+  </data>
+  <data name="CorreoExito" xml:space="preserve">
+    <value>Mail sent successfully</value>
+  </data>
+  <data name="ProgramaGuardadoOrdenTrabajo" xml:space="preserve">
+    <value>Work Order sent</value>
+  </data>
+  <data name="Button1.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Access to the database is not possible at this moment, please try again later</value>
+  </data>
+  <data name="lblBienvenida.Text" xml:space="preserve">
+    <value>Please select which is the reason to modify this program</value>
+  </data>
+  <data name="lbRazon.Text" xml:space="preserve">
+    <value>*Reason:</value>
+  </data>
+  <data name="Norasones" xml:space="preserve">
+    <value>There is no reason to apply to this Farm. Unable to continue with the process.</value>
+  </data>
+  <data name="save.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Autorizar.Text" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="Autorizar" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="EnviarCorreo" xml:space="preserve">
+    <value>Send Fumigation</value>
+  </data>
+  <data name="Guardar" xml:space="preserve">
+    <value>Save and Approve</value>
+  </data>
+  <data name="OrdenTrabajoNoEnviada" xml:space="preserve">
+    <value>Work Order not sent</value>
+  </data>
+</root>

@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style type="text/css">
+        .leftSide
+        {
+        	width:130px; 
+        	text-align:right;
+        	font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+         <div>
+            <img src="cid:LogoNS" alt="Nature Sweet" />
+        </div>
+        <div  align="left" style="padding-left:20px" >
+            <br /><br />
+            Estimado colaborador: <br />     
+                El presente correo es para informarle que se ha creado una nueva fumigación que espera su autorización antes de generar las Ordenes de Trabajo.
+                Por favor, ingrese al portal de Calidad para autorizarla. No es necesario responder a este correo. <br /> <br />    
+                Agradecemos su atención.
+        <br />  
+        <br />
+        <br />
+
+        Dear campaign worker: <br />    
+            This email is to inform to you that there is a new fumigation waiting for your approval before generating Work Orders.
+            Please log in the Quality portal to authorize it. No need to respond to this email. <br /> <br />    
+            Thank you for your attention.
+
+
+         <br />  
+        <br />
+        <br />
+
+                   
+	    <br />
+
+        </div>
+        <div>
+            <img src="cid:footerLogo" alt="Nature Sweet" />
+        </div>
+        
+</body>
+</html>
